@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura - Registro</title>
+    <link rel="stylesheet" href="/css/registro.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu">
+            <nav>
+              <ul>
+                <li><a href="../">Inicio</a></li>
+              </ul>
+            </nav>
+        </div>
+        <div class="contacto">
+            <h1>Aventura Expediciones</h1>
+            <p>Servicio de Expediciones Dentro y Fuera del País</p>
+        </div>
+    </header>
+    <main id="registro">
+        <section class="contenedor2">
+            <div class="grid">
+                     <form action="" method="post">
+                    <ul>
+                     <li>
+                       <label for="name">Nombres :</label>
+                       <input type="text" id="name|" name="user_name" placeholder="Nombres">
+                     </li>
+                     <li>
+                        <label for="name">Apellidos :</label>
+                        <input type="text" id="name" name="user_name" placeholder="Apellidos">
+                      </li>
+                      <li>
+                        <label for="name">Fecha Nacimiento :</label>
+                        <input type="date" id="name" name="user_name">
+                      </li>
+                     <li>
+                       <label for="mail">Correo electrónico:</label>
+                       <input type="email" id="mail" name="user_mail" placeholder="user@mail.com">
+                     </li>
+                     <li>
+                        <label for="name">Dirección :</label>
+                        <input type="text" id="name" name="user_name" placeholder="Calle, Número, Comuna, Ciudad">
+                      </li>
+                      <li>
+                        <label for="name">Teléfono :</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="56 9 0000 0000">
+                      </li>
+                     <li>
+                       <label for="msg">Descripción:</label>
+                       <textarea id="msg" name="user_message"></textarea>
+                     </li>
+                     <li>
+                        <input class="button" type="submit" value="Enviar" style="font-size:large;">
+                      </li>
+                    </ul>
+                   </form>                   
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
